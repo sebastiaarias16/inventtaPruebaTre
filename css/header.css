@@ -1,0 +1,84 @@
+header{
+    background-image: url("../imagenes/fondoH.png");
+    background-size: cover;
+}
+
+.menu {
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+.logo img {
+    height: 30px;
+  }
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+nav li {
+    margin-left: 20px;
+  }
+  
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+nav a:hover {
+    color: #f2f2f2;
+  }
+
+.content{
+    text-align: center;
+}
+.linea {
+    border-top: 3px solid #40DB9D;
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    margin: 60px auto;
+    color: #f2f2f2;
+    align-items: center;
+    margin: auto;
+}
+
+#one{
+    font-size: 60px;
+    width: 80%;
+}
+#two{
+    font-size: 20px;
+    width: 50%;
+    
+}
+.contactobtn {
+    background-color: #FF6E56;
+    color: white;
+    padding: 15px 32px;
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}

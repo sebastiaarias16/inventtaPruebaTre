@@ -1,0 +1,115 @@
+.contentP{
+    text-align: center;
+}
+
+/*css targetas*/
+
+.targetas{
+    margin: 30px 10px;
+    display: inline-block;
+    margin: 45px;
+}
+.tarjeta-one {
+    background-color: #290066;
+    background-image: url("../imagenes/card1.png");
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 20px;
+    overflow: hidden;
+    width: 527px;
+    height: 527px;
+    position: relative;
+  }
+
+  .tarjeta-two {
+    background-color: #290066;
+    background-image: url("../imagenes/card2.png");
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 20px;
+    overflow: hidden;
+    width: 527px;
+    height: 527px;
+    position: relative;
+  }
+
+
+  .tarjeta:last-of-type {
+    margin-right: 0;
+  }
+  
+  .contenido {
+    align-items: flex-end;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .contenido h3 {
+    font-size: 40px;
+    margin-top: 0;
+    color: #FFFFFF;
+    width: 50%;
+    bottom: 45px;
+    left: 50px;
+    position: absolute;
+  }
+  
+  .contenido p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: auto 70px;
+    width: 70%;
+    left: -20px;
+    bottom: 15px;
+    position: absolute;
+  }
+  
+  .linea {
+    border-top: 3px solid #FF6E56;
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    bottom: 0;
+    left: 0;
+}
+
+  .linea-card {
+    border-top: 3px solid #40DB9D;
+    width: 20%;
+    margin: 10px auto;
+    left: 60px;
+    bottom: 65px;
+    position: absolute;
+}
+.linea-cardD {
+  border-top: 3px solid #FF6E56;
+  width: 20%;
+  margin: 2px auto;
+  left: 60px;
+  bottom: 65px;
+  position: absolute;
+}
+.dregradado {
+  background-image: linear-gradient(to bottom, #29006600, #c75103);
+  width: 527px;
+  height: 400px;
+  position: relative;
+}
+.dregradadoD {
+  background-image: linear-gradient(to bottom, #5308bd00, #1A013E);
+  width: 527px;
+  height: 400px;
+  position: relative;
+}
+
+
+/*css targetas*/
+

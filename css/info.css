@@ -1,0 +1,18 @@
+.continfo{
+    background-color: blueviolet;
+    float: left;
+    width: 100%;
+    font-size: 30px;
+}
+
+.botonI {
+    position: relative;
+    background-color: transparent;
+    border: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px;
+}
