@@ -8,6 +8,7 @@
     margin-left: 200px;
     align-items: end;
     font-size: 20px;
+    margin-top: 50px;
 }
 
 .continfo{
@@ -27,7 +28,7 @@
     font-size: 16px;
     padding: 10px 20px;
     text-decoration: none;
-    margin: 5px;
+    margin: -50px;
     border-radius: 3px;
     border: 1px solid #FFFFFF;
 }
@@ -42,5 +43,12 @@
         align-items: center;
         font-size: 20px;
         margin-top: 10px;
+        
+    }
+
+    .continfo .botonI{
+        align-items: center;
+        margin-bottom: 10px;
+        margin-left: 0;
     }
   }
