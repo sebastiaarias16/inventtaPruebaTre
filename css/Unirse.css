@@ -10,8 +10,9 @@
 }
 .contUnirse p{
     font-size: 20px;
-    color: black;
+    color: #515151;
     margin: 20px;
+    margin-bottom: 40px;
 }
 
 .tarjeta-on {
@@ -19,20 +20,30 @@
     border-radius: 5px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 150px;
     overflow: hidden;
     width: 300px;
-    height: 322px;
+    height: 250px;
+    color: #290066;
+  }
+
+  .tarjeta-on .contenidoT h3{
+    font-size: 30px;
   }
   .tarjeta-tw {
     background-image: linear-gradient(to bottom, #290066be, #45017c);
     border-radius: 5px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 50px;
     overflow: hidden;
     width: 300px;
-    height: 322px;
+    height: 250px;
+    color: #FFFFFF;
+  }
+
+  .tarjeta-tw p{
+    color: #FFFFFF;
   }
   
   .tarjeta:last-of-type {
@@ -55,8 +66,19 @@
   }
   
   .botonT {
-    background-color: #007bff;
+    background-color: #8533C5;
+    border-radius: 3px;
     border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  .botonTd {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
     color: #fff;
     display: inline-block;
     font-size: 16px;
@@ -72,4 +94,23 @@
     margin: 10px auto;
     bottom: 0;
     left: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Estilos para pantallas de hasta 768px de ancho */
+
+  .contUnirse {
+    align-items: center;
+  }
+
+  .tarjeta-on,
+  .tarjeta-tw {
+    /* Estilos para las tarjetas en pantallas más pequeñas */
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .tarjeta-on{
+    margin-left: 20px;
+  }
 }

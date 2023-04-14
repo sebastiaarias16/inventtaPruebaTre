@@ -15,12 +15,12 @@
     border-top: 3px solid #FF6E56;
     width: 5%;
     margin: 2px auto;
-    left: -270px;
+    left: -200px;
     position: relative;
   }
 
 .titulo-check h2{
-    left: -30px;
+    
     color: #2A0050;
     font-size: 38px;
     width: 60%;
@@ -39,9 +39,8 @@
 }
 
 .caja-check h3{
-    margin: 15px;
+    margin-right: 65px;
     color: #515151;
-    position: relative;
     left: -220px;
     margin: 35px;
 }
@@ -93,4 +92,27 @@ input[type="checkbox"] {
     border-radius: 10px;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contCheck {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .lineaCH {
+    height: 100%;
+    margin-right: -120px;
+    margin-bottom: -20px;
+    width: 60px;
+  }
+
+  .caja-check {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+
+  .titulo-check h2{
+    font-size: 30px;
+  }
 }

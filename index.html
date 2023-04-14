@@ -14,28 +14,39 @@
     <link rel="stylesheet" href="css/info.css">
     <link rel="stylesheet" href="css/footer.css">
     <!--css link-->
+
+    <!--icons Link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--icons Link-->
+
     <title>inventta</title>
 </head>
 <body>
     <header>
-        <div class="menu">
-            <div class="logo">
-                <img src="imagenes/Logo-Postivo@4x.png" alt="Logo">
-            </div>
-              <nav>
-                <ul>
-                  <li><a href="#">Inicio</a></li>
-                  <li><a href="#">Acerca de</a></li>
-                  <li><a href="#">Servicios</a></li>
-                  <li><a href="#">Contacto</a></li>
-                </ul>
-              </nav>
+      <nav class="menu">
+        <div class="logo">
+          <img src="imagenes/logohead.png" alt="Logo">
         </div>
+        <ul class="menu-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#" style="color:#ffffffdc;">Servicios  <span class="simbolo-o">&or;</span></a>
+          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="#">Insights</a></li>
+          <li><a href="#"><button class="botonMenu">Contacto</button></a></li>
+        </ul>
+        <button class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
 
         <div class="content">
             <div class="text">
                 <p id="one">¿Cómo reinventar y crear<strong> nuevos negocios </strong>desde<span style="color: #FF6E56;"> iniciativas de innovación</span>?</p>
-                <div class="linea"></div>
+                <div class="lineaH"></div>
                 <p id="two">Ampliamos los puntos de vista de directivos y equipos para detectar y desarrollar oportunidades de innovación bajo un proceso sistémico y práctico.</p>
             </div>
             <button class="contactobtn">Contáctanos</button>
@@ -75,7 +86,6 @@
 
         <div class="caja-check">
             <h3>Comprueba y/o  verifica</h3>
-
           <input type="checkbox" id="checkbox1">
           <label for="checkbox1">No sé hacia dónde apostar los esfuerzos de innovación. A mayor riesgo, bajos entornos controlados.</label>
           
@@ -164,7 +174,7 @@
             <div class="lineaT"></div>
             <h3>Lorem Ipsum</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <a href="#" class="botonT">Conoce mas</a>
+            <a href="#" class="botonTd">Conoce mas</a>
           </div>
         </div>
       </div>
@@ -176,10 +186,58 @@
         <a href="#" class="botonI">Suscríbete a nuestro Newsletter</a>
       </div>
       <!--Contenido info-->
-
     </div>
+
+    <!--llamando el archivo JavaScript-->
+    <script src="JavaScript/menu.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--llamando el archivo JavaScript-->
 </body>
-<footer>
-  <img src="imagenes/footer.png" alt="">
-</footer>
+
+      <!--Footer-->
+      <footer>
+        <div class="contback">
+          <div class="contenFot">
+            <div class="part1">
+              <div class="logoF">
+                <img src="imagenes/logoInven.png" alt="Logo">
+              </div>
+              <h3 style="font-size: 20px;">Siguenos</h3>
+              <div class="icons">
+                <a href="https://twitter.com/[tu nombre de usuario]"><i class="fa fa-twitter" style="border-color: aqua;"></i></a>
+                <a href="https://www.linkedin.com/in/[tu nombre de usuario]"><i class="fa fa-linkedin" border-radius></i></a>
+                <a href="https://api.whatsapp.com/send?phone=[tu número de teléfono]"><i class="fa fa-whatsapp " border-radius></i></a>
+              </div>
+              <a href="mailto:[tu dirección de correo electrónico]"><i class="fa fa-envelope" style="color: #ffffff; margin-top: 15px; margin-right: 10px;"></i>contacto@inventta.net</a>
+            </div>
+            <div class="part2">
+              <h3 style="margin-bottom: 5px;">Inscríbete a nuestras comunidades:</h3>
+              <div class="lineaconf"></div>
+              <p>Pymes Colombia</p>
+              <p>Solvers</p>
+              <p>Insightts</p>
+            </div>
+            <div class="part3">
+              <h3 style="margin-bottom: 5px;">Sobre nosotros:</h3>
+              <div class="lineaconf" style="margin-bottom: 35px;"></div>
+              <p>Quiénes somos</p>
+              <p>Contacto</p>
+            </div>
+            <div class="part4">
+              <h3 style="margin-bottom: 5px;">Oficinas en:</h3>
+              <div class="lineaconf" style="margin-bottom: 35px;"></div>
+              <ul>
+                <li>Colombia</li>
+                <li>Peru</li>
+                <li>Brasil</li>
+              </ul>
+            </div>
+          </div>
+          <div class="lineaf"></div>
+          <h2> 2022 - Diseño y desarrollo por Tres Pi Medios</h2>
+        </div>
+      </footer>
+      <!--Footer-->
+    
+
 </html>
